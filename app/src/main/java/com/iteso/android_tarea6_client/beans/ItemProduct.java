@@ -5,9 +5,19 @@ import android.os.Parcelable;
 
 public class ItemProduct implements Parcelable {
 
-    private int code;
-    private String title;
-    private String description;
+    private int code=0;
+    private String title="";
+    private String description="";
+    private String store="";
+
+    public String getStore() {
+        return store;
+    }
+
+    public void setStore(String store) {
+        this.store = store;
+    }
+
     private Integer image;
 
     public int getCode() {

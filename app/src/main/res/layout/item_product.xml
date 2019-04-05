@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/card_view"
     android:layout_width="match_parent"
-    android:layout_height="320dp"
+    android:layout_height="wrap_content"
     android:layout_margin="5dp"
     android:scrollbarStyle="outsideOverlay"
     card_view:cardCornerRadius="4dp"
@@ -25,22 +25,14 @@
             android:textSize="20sp"
             android:textStyle="bold"/>
                 <TextView
-                    android:id="@+id/item_product_store"
+                    android:id="@+id/item_product_id"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:text="Best Buy"
                     android:textColor="#878686"/>
                 <TextView
-                    android:id="@+id/item_product_location"
+                    android:id="@+id/item_product_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:text="Guadalajara, Jalisco"
-                    android:textColor="#878686"/>
-                <TextView
-                    android:id="@+id/item_product_phone"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    tools:text="123456789"
                     android:textColor="@android:color/black"
                     android:textStyle="bold"/>
             </LinearLayout>

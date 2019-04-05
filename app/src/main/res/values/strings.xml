@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Android_Tarea6_Client</string>
+    <string name="app_name">ITESO Client</string>
+    <string name="technology">Technology</string>
+    <string name="home">Home</string>
+    <string name="electronics">Electronics</string>
+    <string name="store_name">Store Name</string>
+    <string name="store_lat">Store Latitude</string>
+    <string name="store_lon">Store Longitude</string>
+    <string name="store_phone">Store Phone</string>
+
+    <string name="save">Save</string>
+    <string name="add_store">Add Store</string>
+
 </resources>
