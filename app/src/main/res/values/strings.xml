@@ -10,5 +10,7 @@
 
     <string name="save">Save</string>
     <string name="add_store">Add Store</string>
+    <string name="add_store_toast">Store added successfully!</string>
+
 
 </resources>

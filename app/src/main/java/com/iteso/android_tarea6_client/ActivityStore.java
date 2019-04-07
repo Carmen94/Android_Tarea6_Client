@@ -43,6 +43,9 @@ public class ActivityStore extends AppCompatActivity {
                 values.put(Constants.KEY_STORE_THUMBNAIL, 0);
                 values.put(Constants.KEY_CITY_ID,1);
                 Uri uri = contentResolver.insert(CONTENT_URI, values);
+                if(uri!=null){
+                    Toast.makeText(v.getContext(),R.string.add_store_toast,Toast.LENGTH_LONG).show();
+                }
                 finish();
             }
         });
